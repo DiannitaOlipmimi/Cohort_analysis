@@ -79,6 +79,13 @@ Perform cohort analysis to analyze user retention rates, identify behavioral pat
 
 ## 📌**Dataset**
 ### **Mobile App (5 data teratas)**
+|time|users|sessions|newusers|crashes|
+|:----|:----|:----|:----|:----|
+|22.12.18 09:00|64|60|5|0|
+|22.12.18 10:00|79|84|8|0|
+|22.12.18 11:00|97|102|22|0|
+|22.12.18 12:00|107|102|13|0|
+|22.12.18 13:00|105|117|10|2|
 
 
 ## 📌**Links**
