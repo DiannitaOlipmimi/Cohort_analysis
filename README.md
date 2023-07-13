@@ -1,16 +1,16 @@
 # COHORT ANALYSIS
 
 ## 📌Table of contents
-- [Definisi](https://github.com/DiannitaOlipmimi/regresi_dan_asumsinya#definition)
-- [Study Case](https://github.com/DiannitaOlipmimi/regresi_linier#study-case)
-- [Step by Step analysis](https://github.com/DiannitaOlipmimi/regresi_dan_asumsinya#step-by-step-analysis)
-- [Result](https://github.com/DiannitaOlipmimi/regresi_dan_asumsinya#step-by-step-analysis)
-- [Dataset](https://github.com/DiannitaOlipmimi/regresi_dan_asumsinya#step-by-step-analysis)
-- [Links](https://github.com/DiannitaOlipmimi/regresi_dan_asumsinya#step-by-step-analysis)
+- [Definisi](https://github.com/DiannitaOlipmimi/cohort_analysis#definisi)
+- [Study Case](https://github.com/DiannitaOlipmimi/cohort_analysis#study-case)
+- [Step by Step analysis](https://github.com/DiannitaOlipmimi/cohort_analysis#step-by-step-analysis)
+- [Result](https://github.com/DiannitaOlipmimi/cohort_analysis#result)
+- [Dataset](https://github.com/DiannitaOlipmimi/cohort_analysis#dataset)
+- [Links](https://github.com/DiannitaOlipmimi/cohort_analysis#links)
 
 ## 📌**Definisi**
 ### 📒Cohort
-cohort analysis adalah proses analisis yang bertujuan memahami perubahan user engagement dari waktu ke waktu
+cohort analysis adalah proses analisis yang bertujuan memahami perubahan *user engagement* dari waktu ke waktu
 
 ## 📌**Study Case**
 ### **User Retention Analysis for a Mobile App**
@@ -90,3 +90,6 @@ Perform cohort analysis to analyze user retention rates, identify behavioral pat
 
 ## 📌**Links**
 https://www.kaggle.com/datasets/wolfgangb33r/usercount
+https://colab.research.google.com/drive/1Q2xO-MIBwe4W_QGszL9FDW9DbJbeB2aY
+https://medium.com/@myskill.id/cohort-and-retention-analysis-practice-dd43c6f5a771
+https://medium.com/@myskill.id/cohort-and-retention-analysis-57249d6718dc
