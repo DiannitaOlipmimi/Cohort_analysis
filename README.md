@@ -75,7 +75,16 @@ melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifi
 ### 📒 **menggunakan R/RStudio**
 
 ### 📒**menggunakan Python**
+```python
+data['cohort'] = data.apply(lambda row: (row['year'] * 100) + (row['month']), axis=1)
+# 2010 * 100 = 201000
+# aug -> 201000 + 08 = 201008
 
+cohorts = data.groupby('CustomerID')['cohort'].min().reset_index()
+cohorts.columns = ['CustomerID', 'first_cohort']
+
+data = data.merge(cohorts, on='CustomerID', how='left')
+```
 
 ## 📌**Result**
 ### 📒**menggunakan Excel**
