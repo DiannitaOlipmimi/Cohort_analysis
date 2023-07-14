@@ -30,13 +30,13 @@ perusahaan ini telah mengumpulkan dataset yang berisi kumpulan data transnasiona
 - **Country**: negara asal toko
 
 ### 📒 Tujuan:
-Perform cohort analysis to analyze user retention rates, identify behavioral patterns, and make recommendations for improving user retention.
+melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifikasi pola konsumen, dan membuat rekomendasi untuk menaikan *user retention*
 
 ### 📒 Langkah Analisis:
 ✅ *Exploratory Data Analysis* (EDA):
-1. Load the user dataset into the analysis environment.
-2. Check the dimensions of the dataset (number of rows and columns).
-3. Examine the first few rows to get a sense of the data structure and variables.
+1. Memuat dataset
+2. Melakukan pengecekan dimensi data seperti jumlah baris dan jumlah kolom
+3. Melakukan pengecekan pada 5 data teratas serta melakukan statistik deskriptif
 
 ✅ Cohort Creation:
 1. Identify the cohort definition based on a specific event or timeframe (e.g., the month of user registration).
