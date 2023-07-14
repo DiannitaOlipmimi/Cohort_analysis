@@ -16,10 +16,18 @@ cohort analysis adalah proses analisis yang bertujuan memahami perubahan *user e
 ### **User Retention Analysis for a Mobile App**
 
 ### 📒 Deskripsi Masalah:
-A mobile app company wants to understand user retention patterns and identify strategies to improve user engagement and retention rates. The company aims to conduct a cohort analysis to analyze user behavior and identify the key factors that contribute to long-term user retention.
+sebuah perusahaan E-Commerce di UK ingin memahami pola retention [kemampuan perusahaan untuk membuat pelanggan kembali membeli atau menggunakan layanannya] konsumen dan mengidentifikasi strategi yang dapat menaikan *user engagement* serta *retention rate*. untuk mengetahuinya, maka perusahaan melakukan *cohort analysis* untuk menganalisa perilaku konsumen dan menemukan *key factors* yang dapat membantu menaikan *user retention* kedepannya
 
 ### 📒 Data dan Variabel:
-The company has collected a dataset containing user information and their activities within the mobile app. The dataset includes information such as user registration date, user demographics, user activity metrics (e.g., app sessions, time spent in the app), and user churn status (whether the user has churned or is still active).
+perusahaan ini telah mengumpulkan dataset yang berisi kumpulan data transnasional yang berisi semua transaksi yang terjadi antara 01/12/2010 dan 09/12/2011 untuk ritel online non-toko yang berbasis di Inggris dan terdaftar. Perusahaan ini terutama menjual hadiah unik untuk semua acara. Banyak pelanggan perusahaan adalah grosir. dataset ini memiliki variabel:
+- **InvoiceNo**: angka unik pada setiap pembelian 
+- **StockCode**: angka unik pada stock toko
+- **Description**: deskripsi jenis produk yang dibeli
+- **Quantity**: jumlah barang yang dibeli
+- **InvoiceDate**: tanggal pembelian
+- **UnitPrice**: harga satu unit produk
+- **CustomerID**: ID konsumen
+- **Country**: negara asal toko
 
 ### 📒 Tujuan:
 Perform cohort analysis to analyze user retention rates, identify behavioral patterns, and make recommendations for improving user retention.
@@ -78,18 +86,11 @@ Perform cohort analysis to analyze user retention rates, identify behavioral pat
 
 
 ## 📌**Dataset**
-### **Mobile App (5 data teratas)**
-|time|users|sessions|newusers|crashes|
-|:----|:----|:----|:----|:----|
-|22.12.18 09:00|64|60|5|0|
-|22.12.18 10:00|79|84|8|0|
-|22.12.18 11:00|97|102|22|0|
-|22.12.18 12:00|107|102|13|0|
-|22.12.18 13:00|105|117|10|2|
+### **E-Commerce UK (5 data teratas)**
 
 
 ## 📌**Links**
-https://www.kaggle.com/datasets/wolfgangb33r/usercount
+https://www.kaggle.com/datasets/carrie1/ecommerce-data
 
 https://colab.research.google.com/drive/1Q2xO-MIBwe4W_QGszL9FDW9DbJbeB2aY
 
