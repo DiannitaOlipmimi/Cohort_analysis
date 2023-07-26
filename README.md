@@ -20,14 +20,14 @@ sebuah perusahaan E-Commerce di UK ingin memahami pola retention [kemampuan peru
 
 ### 📒 Data dan Variabel:
 perusahaan ini telah mengumpulkan dataset yang berisi kumpulan data transnasional yang berisi semua transaksi yang terjadi antara 01/12/2010 dan 09/12/2011 untuk ritel online non-toko yang berbasis di Inggris dan terdaftar. Perusahaan ini terutama menjual hadiah unik untuk semua acara. Banyak pelanggan perusahaan adalah grosir. dataset ini memiliki variabel:
-- **InvoiceNo**: angka unik pada setiap pembelian 
-- **StockCode**: angka unik pada stock toko
-- **Description**: deskripsi jenis produk yang dibeli
-- **Quantity**: jumlah barang yang dibeli
-- **InvoiceDate**: tanggal pembelian
-- **UnitPrice**: harga satu unit produk
-- **CustomerID**: ID konsumen
-- **Country**: negara asal toko
+- `InvoiceNo`: angka unik pada setiap pembelian 
+- `StockCode`: angka unik pada stock toko
+- `Description`: deskripsi jenis produk yang dibeli
+- `Quantity`: jumlah barang yang dibeli
+- `InvoiceDate`: tanggal pembelian
+- `UnitPrice`: harga satu unit produk
+- `CustomerID`: ID konsumen
+- `Country`: negara asal toko
 
 ### 📒 Tujuan:
 melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifikasi pola konsumen, dan membuat rekomendasi untuk menaikan *user retention*
@@ -70,9 +70,6 @@ melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifi
 4. By conducting a comprehensive cohort analysis, the mobile app company can gain insights into user retention patterns, identify areas for improvement, and develop data-driven strategies to enhance user engagement and increase long-term user retention.
 
 ## 📌**Step by step analysis**
-### 📒 **menggunakan Excel**
-
-### 📒 **menggunakan R/RStudio**
 
 ### 📒**menggunakan Python**
 ```python
@@ -87,9 +84,6 @@ data = data.merge(cohorts, on='CustomerID', how='left')
 ```
 
 ## 📌**Result**
-### 📒**menggunakan Excel**
-
-### 📒**menggunakan R/RStudio**
 
 ### 📒**menggunakan Python**
 
