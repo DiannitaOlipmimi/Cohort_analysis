@@ -25,6 +25,14 @@ melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifi
 
 perusahaan ini telah mengumpulkan dataset yang berisi kumpulan data transnasional yang berisi semua transaksi yang terjadi antara 01/12/2010 dan 09/12/2011 untuk ritel online non-toko yang berbasis di Inggris dan terdaftar. Perusahaan ini terutama menjual hadiah unik untuk semua acara. Banyak pelanggan perusahaan adalah grosir. 
 
+| InvoiceNo | StockCode | Description                         | Quantity | InvoiceDate     | UnitPrice | CustomerID | Country        |
+| --------- | --------- | ----------------------------------- | -------- | --------------- | --------- | ---------- | -------------- |
+| 536365    | 85123A    | WHITE HANGING HEART T-LIGHT HOLDER  | 6        | 12/01/2010 8:26 | 2.55      | 17850      | United Kingdom |
+| 536365    | 71053     | WHITE METAL LANTERN                 | 6        | 12/01/2010 8:26 | 3.39      | 17850      | United Kingdom |
+| 536365    | 84406B    | CREAM CUPID HEARTS COAT HANGER      | 8        | 12/01/2010 8:26 | 2.75      | 17850      | United Kingdom |
+| 536365    | 84029G    | KNITTED UNION FLAG HOT WATER BOTTLE | 6        | 12/01/2010 8:26 | 3.39      | 17850      | United Kingdom |
+| 536365    | 84029E    | RED WOOLLY HOTTIE WHITE HEART.      | 6        | 12/01/2010 8:26 | 3.39      | 17850      | United Kingdom |
+
 **📒Variabel:**
 
 dataset ini memiliki variabel:
