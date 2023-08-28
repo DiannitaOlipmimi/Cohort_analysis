@@ -1,14 +1,16 @@
 # COHORT ANALYSIS
+**User Retention Analysis for a Mobile App**
 
-### 📒Cohort
+**⛳Cohort**
+
 cohort analysis adalah proses analisis yang bertujuan memahami perubahan *user engagement* dari waktu ke waktu
 
-### **User Retention Analysis for a Mobile App**
+**⛳Deskripsi Masalah:**
 
-### 📒 Deskripsi Masalah:
 sebuah perusahaan E-Commerce di UK ingin memahami pola retention [kemampuan perusahaan untuk membuat pelanggan kembali membeli atau menggunakan layanannya] konsumen dan mengidentifikasi strategi yang dapat menaikan *user engagement* serta *retention rate*. untuk mengetahuinya, maka perusahaan melakukan *cohort analysis* untuk menganalisa perilaku konsumen dan menemukan *key factors* yang dapat membantu menaikan *user retention* kedepannya
 
-### 📒 Tujuan:
+**⛳Tujuan:**
+
 melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifikasi pola konsumen, dan membuat rekomendasi untuk menaikan *user retention*
 
 
@@ -74,7 +76,12 @@ dataset ini memiliki variabel:
 4. By conducting a comprehensive cohort analysis, the mobile app company can gain insights into user retention patterns, identify areas for improvement, and develop data-driven strategies to enhance user engagement and increase long-term user retention.
 
 ## 🧵**Links**
-📊Medium article
+
+📊Kaggle Dataset
+
+https://www.kaggle.com/datasets/carrie1/ecommerce-data
+
+📊Medium Article
 
 https://medium.com/@myskill.id/cohort-and-retention-analysis-practice-dd43c6f5a771
 
