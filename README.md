@@ -1,25 +1,31 @@
 # COHORT ANALYSIS
 
-## 📌Table of contents
-- [Definisi](https://github.com/DiannitaOlipmimi/cohort_analysis#definisi)
-- [Study Case](https://github.com/DiannitaOlipmimi/cohort_analysis#study-case)
-- [Step by Step analysis](https://github.com/DiannitaOlipmimi/cohort_analysis#step-by-step-analysis)
-- [Result](https://github.com/DiannitaOlipmimi/cohort_analysis#result)
-- [Dataset](https://github.com/DiannitaOlipmimi/cohort_analysis#dataset)
-- [Links](https://github.com/DiannitaOlipmimi/cohort_analysis#links)
-
-## 📌**Definisi**
 ### 📒Cohort
 cohort analysis adalah proses analisis yang bertujuan memahami perubahan *user engagement* dari waktu ke waktu
 
-## 📌**Study Case**
 ### **User Retention Analysis for a Mobile App**
 
 ### 📒 Deskripsi Masalah:
 sebuah perusahaan E-Commerce di UK ingin memahami pola retention [kemampuan perusahaan untuk membuat pelanggan kembali membeli atau menggunakan layanannya] konsumen dan mengidentifikasi strategi yang dapat menaikan *user engagement* serta *retention rate*. untuk mengetahuinya, maka perusahaan melakukan *cohort analysis* untuk menganalisa perilaku konsumen dan menemukan *key factors* yang dapat membantu menaikan *user retention* kedepannya
 
-### 📒 Data dan Variabel:
-perusahaan ini telah mengumpulkan dataset yang berisi kumpulan data transnasional yang berisi semua transaksi yang terjadi antara 01/12/2010 dan 09/12/2011 untuk ritel online non-toko yang berbasis di Inggris dan terdaftar. Perusahaan ini terutama menjual hadiah unik untuk semua acara. Banyak pelanggan perusahaan adalah grosir. dataset ini memiliki variabel:
+### 📒 Tujuan:
+melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifikasi pola konsumen, dan membuat rekomendasi untuk menaikan *user retention*
+
+
+## 📌Table of contents
+- [Data dan Variabel](https://github.com/DiannitaOlipmimi/cohort_analysis#dataset)
+- [Result](https://github.com/DiannitaOlipmimi/cohort_analysis#result)
+- [Links](https://github.com/DiannitaOlipmimi/cohort_analysis#links)
+
+### 🧵Data dan Variabel:
+
+**📒Data:**
+
+perusahaan ini telah mengumpulkan dataset yang berisi kumpulan data transnasional yang berisi semua transaksi yang terjadi antara 01/12/2010 dan 09/12/2011 untuk ritel online non-toko yang berbasis di Inggris dan terdaftar. Perusahaan ini terutama menjual hadiah unik untuk semua acara. Banyak pelanggan perusahaan adalah grosir. 
+
+**📒Variabel:**
+
+dataset ini memiliki variabel:
 - `InvoiceNo`: angka unik pada setiap pembelian 
 - `StockCode`: angka unik pada stock toko
 - `Description`: deskripsi jenis produk yang dibeli
@@ -29,10 +35,8 @@ perusahaan ini telah mengumpulkan dataset yang berisi kumpulan data transnasiona
 - `CustomerID`: ID konsumen
 - `Country`: negara asal toko
 
-### 📒 Tujuan:
-melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifikasi pola konsumen, dan membuat rekomendasi untuk menaikan *user retention*
 
-### 📒 Langkah Analisis:
+### 🧵Result:
 ✅ *Exploratory Data Analysis* (EDA):
 1. Memuat dataset
 2. Melakukan pengecekan dimensi data seperti jumlah baris dan jumlah kolom
@@ -69,40 +73,8 @@ melakukan *cohort analysis* untuk mengetahui *user retention rate*, mengidentifi
 3. Provide recommendations on strategies to improve user engagement and retention, such as personalized onboarding, targeted marketing campaigns, or feature enhancements based on the identified patterns.
 4. By conducting a comprehensive cohort analysis, the mobile app company can gain insights into user retention patterns, identify areas for improvement, and develop data-driven strategies to enhance user engagement and increase long-term user retention.
 
-## 📌**Step by step analysis**
-
-### 📒**menggunakan Python**
-```python
-data['cohort'] = data.apply(lambda row: (row['year'] * 100) + (row['month']), axis=1)
-# 2010 * 100 = 201000
-# aug -> 201000 + 08 = 201008
-
-cohorts = data.groupby('CustomerID')['cohort'].min().reset_index()
-cohorts.columns = ['CustomerID', 'first_cohort']
-
-data = data.merge(cohorts, on='CustomerID', how='left')
-```
-
-## 📌**Result**
-
-### 📒**menggunakan Python**
-
-
-## 📌**Dataset**
-### **E-Commerce UK (5 data teratas)**
-| |InvoiceNo|StockCode|Description|Quantity|InvoiceDate|UnitPrice|CustomerID|Country|
-|:----|:----|:----|:----|:----|:----|:----|:----|:----|
-|0|536365|85123A|WHITE HANGING HEART T-LIGHT HOLDER|6|12/1/2010 8:26|2.55|17850.0|United Kingdom|
-|1|536365|71053|WHITE METAL LANTERN|6|12/1/2010 8:26|3.39|17850.0|United Kingdom|
-|2|536365|84406B|CREAM CUPID HEARTS COAT HANGER|8|12/1/2010 8:26|2.75|17850.0|United Kingdom|
-|3|536365|84029G|KNITTED UNION FLAG HOT WATER BOTTLE|6|12/1/2010 8:26|3.39|17850.0|United Kingdom|
-|4|536365|84029E|RED WOOLLY HOTTIE WHITE HEART.|6|12/1/2010 8:26|3.39|17850.0|United Kingdom|
-
-
-## 📌**Links**
-https://www.kaggle.com/datasets/carrie1/ecommerce-data
-
-https://colab.research.google.com/drive/1Q2xO-MIBwe4W_QGszL9FDW9DbJbeB2aY
+## 🧵**Links**
+📊Medium article
 
 https://medium.com/@myskill.id/cohort-and-retention-analysis-practice-dd43c6f5a771
 
