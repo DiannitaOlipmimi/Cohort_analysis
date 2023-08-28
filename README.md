@@ -47,11 +47,6 @@ dataset ini memiliki variabel:
 
 
 ### 🧵Result:
-✅ *Exploratory Data Analysis* (EDA):
-1. Memuat dataset
-2. Melakukan pengecekan dimensi data seperti jumlah baris dan jumlah kolom
-3. Melakukan pengecekan pada 5 data teratas serta melakukan statistik deskriptif
-
 ✅ Cohort Creation:
 1. Identify the cohort definition based on a specific event or timeframe (e.g., the month of user registration).
 2. Assign users to their respective cohorts based on the defined criteria.
@@ -82,6 +77,8 @@ dataset ini memiliki variabel:
 2. Identify the key factors that contribute to long-term user retention.
 3. Provide recommendations on strategies to improve user engagement and retention, such as personalized onboarding, targeted marketing campaigns, or feature enhancements based on the identified patterns.
 4. By conducting a comprehensive cohort analysis, the mobile app company can gain insights into user retention patterns, identify areas for improvement, and develop data-driven strategies to enhance user engagement and increase long-term user retention.
+
+![Alt text](<cohort plot.png>)
 
 ## 🧵**Links**
 
