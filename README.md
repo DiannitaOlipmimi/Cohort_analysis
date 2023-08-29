@@ -78,8 +78,6 @@ dataset ini memiliki variabel:
 3. Provide recommendations on strategies to improve user engagement and retention, such as personalized onboarding, targeted marketing campaigns, or feature enhancements based on the identified patterns.
 4. By conducting a comprehensive cohort analysis, the mobile app company can gain insights into user retention patterns, identify areas for improvement, and develop data-driven strategies to enhance user engagement and increase long-term user retention.
 
-![Alt text](<cohort plot.png>)
-
 ## 🧵**Links**
 
 📊Kaggle Dataset
